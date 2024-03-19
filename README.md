@@ -65,6 +65,8 @@ The algorithm is as follows:
 #Name : Mohamed Anas O.I
 #Reg no: 212223110028
 
+#Goal State: 8
+
 def value_iteration(P, gamma=1.0, theta=1e-10):
     V = np.zeros(len(P), dtype=np.float64)
     # Write your code here
